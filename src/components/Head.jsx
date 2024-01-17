@@ -48,10 +48,16 @@ function Head() {
               : "hidden"
           } sm:flex`}
         >
-          <ul className="flex flex-col sm:flex-row lg:flex-row gap-8 sm:gap-5 text-xl md:text-base font-semibold items-center place-content-center h-96 sm:h-0 md:h-0 text-[#66748A]">
+          <ul className="flex flex-col sm:flex-row lg:flex-row gap-10 sm:gap-5 text-xl md:text-base font-semibold items-center place-content-center h-96 sm:h-0 md:h-0 text-[#66748A]">
             <Link to="/" onClick={() => setSelectedOption("aboutus")}>
-              <li className={selectedOption === "aboutus" ? " text-black dark:md:text-white" : ""}>
-              Home
+              <li
+                className={
+                  selectedOption === "aboutus"
+                    ? " text-black dark:md:text-white"
+                    : ""
+                }
+              >
+                Home
               </li>
             </Link>
 
@@ -59,7 +65,13 @@ function Head() {
               to="/page-under-construction"
               onClick={() => setSelectedOption("product")}
             >
-              <li className={selectedOption === "product" ? " text-black dark:md:text-white" : ""}>
+              <li
+                className={
+                  selectedOption === "product"
+                    ? " text-black dark:md:text-white"
+                    : ""
+                }
+              >
                 Activity
               </li>
             </Link>
@@ -69,20 +81,16 @@ function Head() {
               onClick={() => setSelectedOption("resource")}
             >
               <li
-                className={selectedOption === "resource" ? " text-black dark:md:text-white" : ""}
+                className={
+                  selectedOption === "resource"
+                    ? " text-black dark:md:text-white"
+                    : ""
+                }
+                style={{ marginRight: "20px" }}
               >
                 Personal
               </li>
             </Link>
-
-            {/* <Link
-              to="/page-under-construction"
-              onClick={() => setSelectedOption("contact")}
-            >
-              <li className={selectedOption === "contact" ? " text-black dark:md:text-white" : ""}>
-                Contact
-              </li>
-            </Link> */}
 
             <div className="block md:hidden">
               <Toggle />
