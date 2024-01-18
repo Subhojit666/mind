@@ -3,6 +3,9 @@ import Homepage from "./pages/Homepage";
 import PageUnderConstruction from "./pages/PageUnderConstruction";
 import Head from "./components/Head";
 import Activity from "./pages/Activity";
+import Comfort from "./pages/Comfort";
+import Distract from "./pages/Distract";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -15,7 +18,10 @@ function App() {
             path="/page-under-construction"
             element={<PageUnderConstruction />}
           />
+          <Route exact path="/about" element={<About/>} />
           <Route exact path="/activity" element={<Activity/>} />
+          <Route exact path="/comfort" element={<Comfort/>} />
+          <Route exact path="/distract" element={<Distract/>} />
         </Routes>
       </BrowserRouter>
     </div>

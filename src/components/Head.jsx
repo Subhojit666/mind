@@ -77,7 +77,7 @@ function Head() {
             </Link>
 
             <Link
-              to="/page-under-construction"
+              to="/about"
               onClick={() => setSelectedOption("resource")}
             >
               <li

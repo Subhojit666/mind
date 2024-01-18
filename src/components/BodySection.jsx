@@ -12,10 +12,11 @@ function BodySection() {
         </h1>
         <div className="flex gap-7 items-center">
           <Button1 />
-        </div>
-        <div className="flex gap-7 items-center">
           <Button2 />
         </div>
+        {/* <div className="flex gap-7 items-center">
+          <Button2 />
+        </div> */}
       </section>
       {/* <section className="w-[360px] sm:w-[640px] md:w-[600px]">
         <img

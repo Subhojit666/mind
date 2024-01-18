@@ -39,10 +39,11 @@ function Button1() {
 
   return (
     <button
-      className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-800 transition duration-200"
+      className="bg-blue-600  rounded-md hover:bg-blue-800 uppercase
+      transition duration-200 text-2xl dark:text-white font-semibold  py-4 px-8  w-full mb-4"
       onClick={handleClick}
     >
-      Chat with MIND
+      Chat with M.I.N.D.
     </button>
   );
 }
