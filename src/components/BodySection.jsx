@@ -17,13 +17,13 @@ function BodySection() {
           <Button2 />
         </div>
       </section>
-      <section className="w-[360px] sm:w-[640px] md:w-[600px]">
+      {/* <section className="w-[360px] sm:w-[640px] md:w-[600px]">
         <img
           src="./med.jpg"
           alt="hero homepage"
           className="md:w-full md:h-full rounded-lg"
         />
-      </section>
+      </section> */}
     </div>
   );
 }

@@ -5,7 +5,7 @@ import Head from "./components/Head";
 
 function App() {
   return (
-    <div className="px-3 sm:px-5 md:px-40 py-8 bg-[#F2F9FE] dark:bg-[#111729] min-h-screen">
+    <div className="px-3 sm:px-5 md:px-40 py-8 bg-[rgba(242, 249, 254, 0.8)] dark:bg-[rgba(17, 23, 41, 0.8)] min-h-screen">
       <BrowserRouter>
         <Head />
         <Routes>
