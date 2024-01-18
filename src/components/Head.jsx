@@ -72,7 +72,7 @@ function Head() {
                     : ""
                 }
               >
-                Activity
+                Personal
               </li>
             </Link>
 
@@ -88,7 +88,7 @@ function Head() {
                 }
                 style={{ marginRight: "20px" }}
               >
-                Personal
+                About Us
               </li>
             </Link>
 
