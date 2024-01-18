@@ -16,7 +16,7 @@ function Head() {
   };
 
   return (
-    <header className="bg-transparent">
+    <header className="bg-transparent px-3 sm:px-5 md:px-40 ">
       <nav className="flex justify-between items-center">
         <Link to="/">
           <div className="flex gap-2 items-center">
