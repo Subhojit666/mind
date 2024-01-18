@@ -15,10 +15,10 @@ function Button1() {
 
     // Set up a callback for when the script is loaded
     script.onload = () => {
-      // Initialize the Botpress web chat
+      // Initialize the Botpress web chat with the updated configuration
       window.botpressWebChat.init({
-        "composerPlaceholder": "Chat with bot",
-        "botConversationDescription": "This chatbot was built surprisingly fast with Botpress",
+        "composerPlaceholder": "Type here",
+        "botConversationDescription": "Mood-lifting Interactive Nexus of Delight",
         "botId": "3a21ca07-90f4-476c-878f-b672251bd7d9",
         "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
         "messagingUrl": "https://messaging.botpress.cloud",
@@ -26,8 +26,11 @@ function Button1() {
         "webhookId": "328f1e01-02ac-4a11-af1d-fd4847e51bee",
         "lazySocket": true,
         "themeName": "prism",
+        "botName": "M.I.N.D.",
+        "avatarUrl": "https://thumbs.dreamstime.com/z/funny-happy-chat-bot-yellow-112159101.jpg?ct=jpeg",
+        "stylesheet": "https://webchat-styler-css.botpress.app/prod/code/51544756-e75d-4a3a-8ffe-044db7fe9782/v80295/style.css",
         "frontendVersion": "v1",
-        "showPoweredBy": true,
+        "useSessionStorage": true,
         "theme": "prism",
         "themeColor": "#2563eb"
       });
