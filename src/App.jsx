@@ -6,6 +6,8 @@ import Activity from "./pages/Activity";
 import Comfort from "./pages/Comfort";
 import Distract from "./pages/Distract";
 import About from "./pages/About";
+import Journal from "./pages/Journal";
+import Timer from "./pages/Timer";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
             path="/page-under-construction"
             element={<PageUnderConstruction />}
           />
+          <Route exact path="/timer" element={<Timer/>} />
+          <Route exact path="/journal" element={<Journal/>} />
           <Route exact path="/about" element={<About/>} />
           <Route exact path="/activity" element={<Activity/>} />
           <Route exact path="/comfort" element={<Comfort/>} />

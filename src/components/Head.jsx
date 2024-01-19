@@ -62,7 +62,7 @@ function Head() {
             </Link>
 
             <Link
-              to="/page-under-construction"
+              to="/journal"
               onClick={() => setSelectedOption("product")}
             >
               <li
